@@ -1,0 +1,30 @@
+solid HB_Base_Rose_Crown
+	
+		facet normal 0 0 1
+			outer loop
+				vertex 0 0 0
+				vertex 120 0 0
+				vertex 120 40 0
+			endloop
+		endfacet
+		facet normal 0 0 1
+			outer loop
+				vertex 0 0 0
+				vertex 120 40 0
+				vertex 0 40 0
+			endloop
+		endfacet
+		// Add more facets to match the dimensions and shapes specified
+	
+	// Base
+	// Dimensions: 120mm x 40mm x 8mm
+	
+	// Letter
+	// Thickness: 6mm
+	
+	// Rose
+	// Depth: 4mm relief
+	
+	// Crown
+	// Height: 20mm
+endsolid HB_Base_Rose_Crown
